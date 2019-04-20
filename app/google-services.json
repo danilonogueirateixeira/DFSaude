@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "558444453873",
+    "firebase_url": "https://dfsaude2019.firebaseio.com",
+    "project_id": "dfsaude2019",
+    "storage_bucket": "dfsaude2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558444453873:android:be15c77636b91e09",
+        "android_client_info": {
+          "package_name": "br.com.dfsaude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558444453873-6qak460mnmf1bfnqr94afh0elq2g68sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzJ2Z8EH4t25Vqonbr654MXMG6yHGeues"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558444453873-6qak460mnmf1bfnqr94afh0elq2g68sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
