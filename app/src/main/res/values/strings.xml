@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">DFSaude</string>
+
+
     <string name="RedefinirSucesso">O e-mail de redefinição foi encaminhado!</string>
     <string name="RedefinirFalha">O e-mail informado não é válido</string>
     <string name="no_account">Não possui conta?</string>
     <string name="recover_password">Esqueci sua senha?</string>
+
+
+    <!--erro inputs-->
+    <string name="error_input_email">Email inválido</string>
+    <string name="error_input_password">A senha de conter no minímo 8 caracteres</string>
 
 </resources>
