@@ -3,9 +3,13 @@
 
 
     <string name="RedefinirSucesso">O e-mail de redefinição foi encaminhado!</string>
-    <string name="RedefinirFalha">O e-mail informado não é válido</string>
+    <string name="RedefinirFalha">O e-mail informado não foi encontrado</string>
     <string name="no_account">Não possui conta?</string>
     <string name="recover_password">Esqueci sua senha?</string>
+    <string name="recover_password_instructions">Você receberá uma mensagem no e-mail informado para que a senha seja alterada.</string>
+    <string name="btn_recover_password">REDEFINIR SENHA</string>
+    <string name="email">Email</string>
+
 
 
     <!--erro inputs-->

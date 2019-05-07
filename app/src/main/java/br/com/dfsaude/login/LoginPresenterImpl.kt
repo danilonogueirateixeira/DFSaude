@@ -4,16 +4,13 @@ import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import br.com.dfsaude.R
-import br.com.dfsaude.RedefinirSenha
+import br.com.dfsaude.recover.RecoverActivity
 import br.com.dfsaude.util.isValidEmail
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import android.widget.Toast
 import com.google.firebase.auth.AuthResult
-import com.google.android.gms.tasks.Task
-import android.support.annotation.NonNull
 import com.google.android.gms.tasks.OnCompleteListener
-import android.util.Log
 
 
 class LoginPresenterImpl(val loginView: LoginView, val context: Context) : LoginPresenter
@@ -52,7 +49,7 @@ class LoginPresenterImpl(val loginView: LoginView, val context: Context) : Login
     override fun performRecoverPassword()
     {
 
-        (context as AppCompatActivity).startActivity(Intent(context, RedefinirSenha::class.java))
+        (context as AppCompatActivity).startActivity(Intent(context, RecoverActivity::class.java))
     }
 
     fun login(email: String, password: String)

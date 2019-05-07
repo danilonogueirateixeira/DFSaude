@@ -3,6 +3,7 @@ package br.com.dfsaude
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import br.com.dfsaude.recover.RecoverActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -14,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         textView_EsqueciSenha.setOnClickListener {
 
-            val intent = Intent(this, RedefinirSenha::class.java)
+            val intent = Intent(this, RecoverActivity::class.java)
             this.startActivity(intent)
         }
     }

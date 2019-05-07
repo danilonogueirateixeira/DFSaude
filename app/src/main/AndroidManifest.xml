@@ -18,7 +18,7 @@
         </activity>
 
         <!--recover passowrd-->
-        <activity android:name=".RedefinirSenha"></activity>
+        <activity android:name=".recover.RecoverActivity"></activity>
 
     </application>
 
