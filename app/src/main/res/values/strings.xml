@@ -11,7 +11,6 @@
     <string name="email">Email</string>
 
 
-
     <!--erro inputs-->
     <string name="error_input_email">Email inválido</string>
     <string name="error_input_password">A senha de conter no minímo 8 caracteres</string>
