@@ -1,13 +1,10 @@
 package br.com.dfsaude.recover
 
-import android.app.Activity
-import android.content.Context
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import br.com.dfsaude.R
 import br.com.dfsaude.util.isValidEmail
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 
 
 class RecoverPresenterImpl(val recoverView: RecoverView, val context: AppCompatActivity) : RecoverPresenter {
