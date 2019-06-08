@@ -44,6 +44,7 @@ class LoginActivity: AppCompatActivity(), LoginView, View.OnClickListener
 
     lateinit var btnRecoverPassword: TextView
     lateinit var btnLogin: Button
+    lateinit var btnRegister: TextView
 
     lateinit var inputEmail: TextInputLayout
 
@@ -63,6 +64,7 @@ class LoginActivity: AppCompatActivity(), LoginView, View.OnClickListener
 
         btnRecoverPassword.setOnClickListener(this)
         btnLogin.setOnClickListener(this)
+        btnRegister.setOnClickListener(this)
 
 
 
@@ -72,6 +74,7 @@ class LoginActivity: AppCompatActivity(), LoginView, View.OnClickListener
     {
         btnRecoverPassword = btn_recover
         btnLogin = btn_enter
+        btnRegister = btn_register
 
         inputEmail = input_email
         inputPassword = input_password
@@ -97,6 +100,11 @@ class LoginActivity: AppCompatActivity(), LoginView, View.OnClickListener
                  presenterLogin.performLogin(
                          email = inputEmail.editText?.text.toString(),
                          password = inputPassword.editText?.text.toString())
+             }
+
+             R.id.btn_register ->{
+                 presenterLogin.performRegister()
+
              }
          }
     }

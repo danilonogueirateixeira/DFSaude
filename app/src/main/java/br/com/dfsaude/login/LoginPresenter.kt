@@ -6,5 +6,7 @@ interface LoginPresenter
 
     fun performLogin(email: String, password: String)
 
+    fun performRegister()
+
 
 }

@@ -9,6 +9,8 @@ import br.com.dfsaude.util.isValidEmail
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import android.widget.Toast
+import br.com.dfsaude.perfil.PerfilActivity
+import br.com.dfsaude.register.RegisterActivity
 import com.google.firebase.auth.AuthResult
 import com.google.android.gms.tasks.OnCompleteListener
 
@@ -46,6 +48,11 @@ class LoginPresenterImpl(val loginView: LoginView, val context: Context) : Login
 
     }
 
+    override fun performRegister() {
+        (context as AppCompatActivity).startActivity(Intent(context, RegisterActivity::class.java))
+
+    }
+
     override fun performRecoverPassword()
     {
 
@@ -65,6 +72,10 @@ class LoginPresenterImpl(val loginView: LoginView, val context: Context) : Login
                     if (task.isSuccessful)
                     {
                         Toast.makeText(context, "Successfully Logged in :)", Toast.LENGTH_LONG).show()
+
+                        (context).startActivity(Intent(context, PerfilActivity::class.java))
+                        (context).finish()
+
                     }
                     else
                     {
