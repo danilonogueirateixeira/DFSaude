@@ -14,5 +14,19 @@
     <!--erro inputs-->
     <string name="error_input_email">Email inválido</string>
     <string name="error_input_password">A senha de conter no minímo 8 caracteres</string>
+    <string name="error_input_nome">Preencha um nome</string>
+    <string name="error_input_ddd">DDD inválido</string>
+    <string name="error_input_telefone">Telefone inválido</string>
+    <string name="error_input_endereco">Preencha com um endereço</string>
+    <string name="error_input_numero">Número inválido</string>
+    <string name="error_input_complemento">Preencha um complemento</string>
+    <string name="error_input_cep">CEP iválido</string>
+    <string name="error_input_cidade">Preencha com uma cidade</string>
+    <string name="error_input_uf">Estado Inválido</string>
+    <string name="error_input_confirm_password">As senhas devem ser iguais</string>
+
+
+
+
 
 </resources>
