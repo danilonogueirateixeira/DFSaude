@@ -6,6 +6,7 @@ import android.os.Bundle
 import br.com.dfsaude.R
 import android.os.Handler
 import br.com.dfsaude.login.LoginActivity
+import br.com.dfsaude.perfil.PerfilActivity
 
 class SplashActivity : AppCompatActivity(), SplashView {
 
@@ -24,6 +25,6 @@ class SplashActivity : AppCompatActivity(), SplashView {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        temporizador(1000)
+        temporizador(2000)
     }
 }
